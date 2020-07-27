@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="25006" started-at="2020-07-26T15:14:21Z" finished-at="2020-07-26T15:14:46Z">
+  <suite name="Suite" duration-ms="34738" started-at="2020-07-27T04:04:46Z" finished-at="2020-07-27T04:05:21Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="25006" started-at="2020-07-26T15:14:21Z" finished-at="2020-07-26T15:14:46Z">
+    <test name="Test" duration-ms="34738" started-at="2020-07-27T04:04:46Z" finished-at="2020-07-27T04:05:21Z">
       <class name="testPackage.LoginTest">
-        <test-method status="PASS" signature="BaseClass()[pri:0, instance:testPackage.LoginTest@90f6bfd]" name="BaseClass" is-config="true" duration-ms="9493" started-at="2020-07-26T15:14:21Z" finished-at="2020-07-26T15:14:31Z">
+        <test-method status="PASS" signature="BaseClass()[pri:0, instance:testPackage.LoginTest@971d0d8]" name="BaseClass" is-config="true" duration-ms="9237" started-at="2020-07-27T04:04:46Z" finished-at="2020-07-27T04:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseClass -->
-        <test-method status="PASS" signature="initObjects()[pri:0, instance:testPackage.LoginTest@90f6bfd]" name="initObjects" is-config="true" duration-ms="1" started-at="2020-07-26T15:14:31Z" finished-at="2020-07-26T15:14:31Z">
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:testPackage.LoginTest@971d0d8]" name="initObjects" is-config="true" duration-ms="30" started-at="2020-07-27T04:04:55Z" finished-at="2020-07-27T04:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initObjects -->
-        <test-method status="PASS" signature="Mediwarelogin()[pri:1, instance:testPackage.LoginTest@90f6bfd]" name="Mediwarelogin" duration-ms="6274" started-at="2020-07-26T15:14:31Z" finished-at="2020-07-26T15:14:37Z">
+        <test-method status="PASS" signature="Mediwarelogin()[pri:1, instance:testPackage.LoginTest@971d0d8]" name="Mediwarelogin" duration-ms="6267" started-at="2020-07-27T04:04:55Z" finished-at="2020-07-27T04:05:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Mediwarelogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@90f6bfd]" name="getResult" is-config="true" duration-ms="9" started-at="2020-07-26T15:14:37Z" finished-at="2020-07-26T15:14:37Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@971d0d8]" name="getResult" is-config="true" duration-ms="12" started-at="2020-07-27T04:05:02Z" finished-at="2020-07-27T04:05:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Mediwarelogin status=SUCCESS method=LoginTest.Mediwarelogin()[pri:1, instance:testPackage.LoginTest@90f6bfd] output={null}]]]>
+                <![CDATA[[TestResult name=Mediwarelogin status=SUCCESS method=LoginTest.Mediwarelogin()[pri:1, instance:testPackage.LoginTest@971d0d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@90f6bfd]" name="MediwareAppoinment" duration-ms="9060" started-at="2020-07-26T15:14:37Z" finished-at="2020-07-26T15:14:46Z">
+        <test-method status="FAIL" signature="MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@971d0d8]" name="MediwareAppoinment" duration-ms="18967" started-at="2020-07-27T04:05:02Z" finished-at="2020-07-27T04:05:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -64,37 +64,31 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MediwareAppoinment -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@90f6bfd]" name="getResult" is-config="true" duration-ms="14" started-at="2020-07-26T15:14:46Z" finished-at="2020-07-26T15:14:46Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@971d0d8]" name="getResult" is-config="true" duration-ms="5" started-at="2020-07-27T04:05:21Z" finished-at="2020-07-27T04:05:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MediwareAppoinment status=FAILURE method=LoginTest.MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@90f6bfd] output={null}]]]>
+                <![CDATA[[TestResult name=MediwareAppoinment status=FAILURE method=LoginTest.MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@971d0d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="PatietSearch()[pri:3, instance:testPackage.LoginTest@90f6bfd]" name="PatietSearch" duration-ms="117" started-at="2020-07-26T15:14:46Z" finished-at="2020-07-26T15:14:46Z">
+        <test-method status="FAIL" signature="PatietSearch()[pri:3, instance:testPackage.LoginTest@971d0d8]" name="PatietSearch" duration-ms="169" started-at="2020-07-27T04:05:21Z" finished-at="2020-07-27T04:05:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -128,30 +122,24 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PatietSearch -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@90f6bfd]" name="getResult" is-config="true" duration-ms="3" started-at="2020-07-26T15:14:46Z" finished-at="2020-07-26T15:14:46Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@971d0d8]" name="getResult" is-config="true" duration-ms="2" started-at="2020-07-27T04:05:21Z" finished-at="2020-07-27T04:05:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=PatietSearch status=FAILURE method=LoginTest.PatietSearch()[pri:3, instance:testPackage.LoginTest@90f6bfd] output={null}]]]>
+                <![CDATA[[TestResult name=PatietSearch status=FAILURE method=LoginTest.PatietSearch()[pri:3, instance:testPackage.LoginTest@971d0d8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -159,6 +147,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </reporter-output>
         </test-method> <!-- getResult -->
       </class> <!-- testPackage.LoginTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

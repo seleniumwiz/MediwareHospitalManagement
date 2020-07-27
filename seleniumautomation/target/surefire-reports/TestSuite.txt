@@ -1,20 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.958 sec <<< FAILURE!
-MediwareAppoinment(testPackage.LoginTest)  Time elapsed: 9.067 sec  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 44.488 s <<< FAILURE! - in TestSuite
+MediwareAppoinment(testPackage.LoginTest)  Time elapsed: 18.977 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
 	at testPackage.LoginTest.MediwareAppoinment(LoginTest.java:67)
 
-PatietSearch(testPackage.LoginTest)  Time elapsed: 0.117 sec  <<< FAILURE!
+PatietSearch(testPackage.LoginTest)  Time elapsed: 0.169 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
 	at testPackage.LoginTest.PatietSearch(LoginTest.java:87)
 

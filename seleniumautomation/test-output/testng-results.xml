@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25557" started-at="2020-07-27T09:16:02 IST" finished-at="2020-07-27T09:16:28 IST">
+  <suite name="Suite" duration-ms="34931" started-at="2020-07-27T09:37:24 IST" finished-at="2020-07-27T09:37:59 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25557" started-at="2020-07-27T09:16:02 IST" finished-at="2020-07-27T09:16:28 IST">
+    <test name="Test" duration-ms="34931" started-at="2020-07-27T09:37:24 IST" finished-at="2020-07-27T09:37:59 IST">
       <class name="testPackage.LoginTest">
-        <test-method status="PASS" signature="BaseClass()[pri:0, instance:testPackage.LoginTest@74650e52]" name="BaseClass" is-config="true" duration-ms="10287" started-at="2020-07-27T09:16:02 IST" finished-at="2020-07-27T09:16:12 IST">
+        <test-method status="PASS" signature="BaseClass()[pri:0, instance:testPackage.LoginTest@74650e52]" name="BaseClass" is-config="true" duration-ms="9057" started-at="2020-07-27T09:37:24 IST" finished-at="2020-07-27T09:37:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BaseClass -->
-        <test-method status="PASS" signature="initObjects()[pri:0, instance:testPackage.LoginTest@74650e52]" name="initObjects" is-config="true" duration-ms="1" started-at="2020-07-27T09:16:12 IST" finished-at="2020-07-27T09:16:12 IST">
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:testPackage.LoginTest@74650e52]" name="initObjects" is-config="true" duration-ms="2" started-at="2020-07-27T09:37:33 IST" finished-at="2020-07-27T09:37:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initObjects -->
-        <test-method status="PASS" signature="Mediwarelogin()[pri:1, instance:testPackage.LoginTest@74650e52]" name="Mediwarelogin" duration-ms="6041" started-at="2020-07-27T09:16:12 IST" finished-at="2020-07-27T09:16:19 IST">
+        <test-method status="PASS" signature="Mediwarelogin()[pri:1, instance:testPackage.LoginTest@74650e52]" name="Mediwarelogin" duration-ms="5947" started-at="2020-07-27T09:37:33 IST" finished-at="2020-07-27T09:37:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Mediwarelogin -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="10" started-at="2020-07-27T09:16:19 IST" finished-at="2020-07-27T09:16:19 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="11" started-at="2020-07-27T09:37:39 IST" finished-at="2020-07-27T09:37:39 IST">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@74650e52]" name="MediwareAppoinment" duration-ms="9039" started-at="2020-07-27T09:16:19 IST" finished-at="2020-07-27T09:16:28 IST">
+        <test-method status="FAIL" signature="MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@74650e52]" name="MediwareAppoinment" duration-ms="19657" started-at="2020-07-27T09:37:39 IST" finished-at="2020-07-27T09:37:58 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -76,7 +76,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MediwareAppoinment -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="5" started-at="2020-07-27T09:16:28 IST" finished-at="2020-07-27T09:16:28 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="5" started-at="2020-07-27T09:37:58 IST" finished-at="2020-07-27T09:37:58 IST">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="FAIL" signature="PatietSearch()[pri:3, instance:testPackage.LoginTest@74650e52]" name="PatietSearch" duration-ms="110" started-at="2020-07-27T09:16:28 IST" finished-at="2020-07-27T09:16:28 IST">
+        <test-method status="FAIL" signature="PatietSearch()[pri:3, instance:testPackage.LoginTest@74650e52]" name="PatietSearch" duration-ms="173" started-at="2020-07-27T09:37:58 IST" finished-at="2020-07-27T09:37:59 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -133,7 +133,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PatietSearch -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="12" started-at="2020-07-27T09:16:28 IST" finished-at="2020-07-27T09:16:28 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@74650e52]" name="getResult" is-config="true" duration-ms="15" started-at="2020-07-27T09:37:59 IST" finished-at="2020-07-27T09:37:59 IST">
           <params>
             <param index="0">
               <value>

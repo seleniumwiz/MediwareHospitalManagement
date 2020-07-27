@@ -23,7 +23,7 @@ public class Login extends commonLib {
 	public void enterUserName() throws Exception {
 		try {
 
-			WebElement userName = driver.findElement(By.id(commonLib.getElementPropFile("TEXT_USERNAME_ID")));
+			WebElement userName = driver.findElement(By.id(commonLib.getElementPropFile("EXT_USERNAME_ID")));
 			// Passing data direactly through HashMaps
 			Opusercredentials = Data.getUserinfo().get("Outpatient");
 			userinfo = Opusercredentials.split("_");
